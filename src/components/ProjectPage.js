@@ -3,7 +3,7 @@ import React from 'react'
 // This component acts as a template project page where individual project component files 
 // will send props to this page so all project renders look the same
 
-// Props passed in 
+// Props passed in with example
 // title = "A CodeClan Group Project"
 // projectTitle = "Endangered Animals App"
 // subtitle = "A Learning with CodeClan Project"

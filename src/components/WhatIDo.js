@@ -36,7 +36,7 @@ const WhatIDo = () => {
             </div>
             {/* <!-- / services --> */}
 
-            <a href="#work" className="btn">My Work</a>
+            <a href="#projects" className="btn">My Projects</a>
         </section>
 
     )
