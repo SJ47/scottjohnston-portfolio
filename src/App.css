@@ -85,7 +85,19 @@ h3 {
 /**********************/
 header {
     display: flex;
-    padding: 1em 1em 2em 1em;
+    padding: 0em 1em 1em 1em;
+    border-bottom: 3px solid lightgray;
+    box-shadow: var(--box-shadow-light);
+}
+
+header,
+.logo {
+    overflow: hidden;
+    position: sticky;
+    top: 0em;
+    z-index: 99;
+    background: white;
+    padding-top: 0.5em;
 }
 
 .navigation {
@@ -103,9 +115,17 @@ header {
     color: var(--tertiary-color);
 }
 
+.item:hover {
+    border-bottom: 5px solid #e4c619;
+}
+
 /*******************/
 /* General section */
 /*******************/
+
+main {
+    padding-top: 1em;
+}
 
 .intro__img {
     display: block;
@@ -124,6 +144,7 @@ header {
         "img title"
         "img subtitle";
     grid-template-columns: min-content max-content;
+    margin-top: 1em;
 }
 
 .section__title {
