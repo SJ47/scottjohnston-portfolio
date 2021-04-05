@@ -16,8 +16,7 @@ import RockPaperScissors from "../components/projects/RockPaperScissors";
 
 const PortfolioContainer = () => {
     return (
-
-        <BrowserRouter>
+        <>
             <header>
                 <Logo />
                 <NavBar />
@@ -31,20 +30,20 @@ const PortfolioContainer = () => {
                         <WhoIAm />
                         <Projects />
                     </Route>
-                    <Route path="/endangered-animals">
-                        <EndangeredAnimals />
+                    <Route path="/endangered-animals" component={EndangeredAnimals}>
+                        {/* <EndangeredAnimals /> */}
                     </Route>
-                    <Route path="/tv-show-search">
-                        <TvShowSearch />
+                    <Route path="/tv-show-search" component={TvShowSearch}>
+                        {/* <TvShowSearch /> */}
                     </Route>
-                    <Route path="/retro-video-game-library">
-                        <RetroVideoGameLibrary />
+                    <Route path="/retro-video-game-library" component={RetroVideoGameLibrary}>
+                        {/* <RetroVideoGameLibrary /> */}
                     </Route>
-                    <Route path="/sports-scoring-app">
-                        <SportsScoringApp />
+                    <Route path="/sports-scoring-app" component={SportsScoringApp}>
+                        {/* <SportsScoringApp /> */}
                     </Route>
-                    <Route path="/rock-paper-scissors">
-                        <RockPaperScissors />
+                    <Route path="/rock-paper-scissors" component={RockPaperScissors}>
+                        {/* <RockPaperScissors /> */}
                     </Route>
                 </Switch >
             </main>
@@ -52,7 +51,7 @@ const PortfolioContainer = () => {
             <footer>
                 <Footer />
             </footer>
-        </BrowserRouter>
+        </>
 
     )
 }

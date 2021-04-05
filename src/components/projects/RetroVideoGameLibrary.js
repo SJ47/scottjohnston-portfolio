@@ -3,6 +3,13 @@ import projImage from "../../static/images/retro-video-game-library.png"
 import ProjectPage from '../ProjectPage'
 
 const RetroVideoGameLibrary = () => {
+
+    // Ensure page starts at top when rendered
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
     return (
         <ProjectPage
             title="A CodeClan Solo Project"

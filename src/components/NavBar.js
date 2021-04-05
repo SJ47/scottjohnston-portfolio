@@ -18,6 +18,7 @@ const NavBar = () => {
             <div className="navigation-sub">
                 <NavHashLink smooth to=
                     "/#services"
+                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                     className="item"
                     activeClassName="activeRoute"
                     activeStyle={activeStyle}
@@ -27,6 +28,7 @@ const NavBar = () => {
 
                 <NavHashLink smooth to=
                     "/#about"
+                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                     className="item"
                     activeClassName="activeRoute"
                     activeStyle={activeStyle}
@@ -36,6 +38,7 @@ const NavBar = () => {
 
                 <NavHashLink smooth to=
                     "/#projects"
+                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                     className="item"
                     activeClassName="activeRoute"
                     activeStyle={activeStyle}

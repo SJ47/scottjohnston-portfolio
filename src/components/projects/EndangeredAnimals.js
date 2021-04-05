@@ -3,6 +3,13 @@ import projImage from "../../static/images/endangered-animals-app.jpg"
 import ProjectPage from '../ProjectPage'
 
 const EndangeredAnimals = () => {
+
+    // Ensure page starts at top when rendered
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
     return (
         <ProjectPage
             title="A CodeClan Group Project"
