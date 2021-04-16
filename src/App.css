@@ -362,6 +362,11 @@ main {
     margin-right: auto;
 }
 
+.portfolio-item-individual img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /************************/
 /* Project card section */
 /************************/

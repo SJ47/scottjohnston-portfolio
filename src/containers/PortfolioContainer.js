@@ -13,6 +13,8 @@ import TvShowSearch from "../components/projects/TvShowSearch";
 import RetroVideoGameLibrary from "../components/projects/RetroVideoGameLibrary";
 import SportsScoringApp from "../components/projects/SportsScoringApp";
 import RockPaperScissors from "../components/projects/RockPaperScissors";
+import Foodee from "../components/projects/Foodee";
+
 
 const PortfolioContainer = () => {
     return (
@@ -29,6 +31,8 @@ const PortfolioContainer = () => {
                         <WhatIDo />
                         <WhoIAm />
                         <Projects />
+                    </Route>
+                    <Route path="/foodee" component={Foodee}>
                     </Route>
                     <Route path="/endangered-animals" component={EndangeredAnimals}>
                         {/* <EndangeredAnimals /> */}

@@ -5,6 +5,7 @@ import projTvShowSearchImage from "../static/images/tv-show-search-app.jpg"
 import projRetroVideoGameLibraryImage from "../static/images/retro-video-game-library.png"
 import projSportsScoringImage from "../static/images/sports-scoring-app.png"
 import projRockPaperScissorsImage from "../static/images/rock-paper-scissors.png"
+import projFoodeeImage from "../static/images/foodee.png"
 
 const Projects = () => {
     return (
@@ -16,6 +17,14 @@ const Projects = () => {
     </p>
 
             <div className="portfolio">
+
+                <Thumbnail className="thumbnail"
+                    link="/foodee"
+                    image={projFoodeeImage}
+                    title="Foodee"
+                    category="Web App for Mobile"
+                    description="Tech: Java, Java Spring Framework, React, JavaScript, HTML, CSS, Leaflet.js and Stripe Integration."
+                />
 
                 <Thumbnail className="thumbnail"
                     link="/endangered-animals"
