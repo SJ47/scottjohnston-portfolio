@@ -354,6 +354,7 @@ main {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .portfolio-item-individual p {
@@ -411,11 +412,35 @@ hr {
 
 .subtext {
     margin: 1em;
+    height: 4em;
 }
 
 .project-link {
     text-decoration: none;
     color: #ef744b;
+}
+
+.project-button {
+    background-color: greenyellow;
+    border: 0;
+    padding: 0.6em 1em;
+    border-radius: 25px;
+    margin-top: 1.6em;
+    cursor: pointer;
+    box-shadow: var(--box-shadow-light);
+}
+
+.project-button:hover {
+    border: 0;
+    padding: 0.6em 1em;
+    border-radius: 25px;
+    margin-top: 1.6em;
+    cursor: pointer;
+    box-shadow: var(--box-shadow-heavy);
+}
+
+.project-button:focus {
+    outline: none;
 }
 
 /******************/

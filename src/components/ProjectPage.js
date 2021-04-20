@@ -28,13 +28,18 @@ const ProjectPage = (props) => {
 
             <div className="portfolio-item-individual">
                 <p>This project uses {props.techDescription}</p>
-                <a href={props.liveAppLink} target="_blank" rel="noreferrer">
-                    <img src={props.projImage} alt="portfolio project"></img>
-                </a>
+                {/* <a href={props.liveAppLink} target="_blank" rel="noreferrer"> */}
+                <img src={props.projImage} alt="portfolio project"></img>
+                {/* </a> */}
 
-                <p>Click on the screenshot to view the app running live</p>
-                <p>Click to view the <a href={props.gitHubLink} target="_blank" rel="noreferrer">source
-        code on Github</a>
+                <a href={props.liveAppLink} target="_blank" rel="noreferrer">
+                    <button className="project-button">View Project Running Live!</button>
+                </a>
+                <p>View the <a href={props.gitHubLink} target="_blank" rel="noreferrer">source
+        code on Github </a>
+                    {/* <a className="social-list__link" href="https://github.com/sj47" target="_blank" rel="noreferrer"> */}
+                    <i className="fab fa-github"></i>
+                    {/* </a> */}
                 </p>
             </div>
         </div>

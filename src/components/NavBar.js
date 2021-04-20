@@ -38,7 +38,7 @@ const NavBar = () => {
 
                 <NavHashLink smooth to=
                     "/#projects"
-                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
                     className="item"
                     activeClassName="activeRoute"
                     activeStyle={activeStyle}
