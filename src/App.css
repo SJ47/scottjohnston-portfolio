@@ -380,8 +380,14 @@ main {
 .project-card {
     width: 300px;
     height: 500px;
-    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    /* box-shadow: 5px 5px 20px rgb(197, 195, 195); */
+    box-shadow: var(--box-shadow-light);
     margin: 10px;
+}
+
+.project-card:hover {
+    /* box-shadow: var(--box-shadow-heavy); */
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
 }
 
 .card-title {
