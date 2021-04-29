@@ -17,7 +17,8 @@ const Foodee = () => {
             projectTitle="Foodee App"
             subtitle="A Learning with CodeClan Project"
             gitHubLink="https://github.com/SJ47/foodee"
-            liveAppLink="https://foodee-client.herokuapp.com"
+            // liveAppLink="https://foodee-client.herokuapp.com"
+            liveAppLink="https://foodee.scottjohnston.dev"
             projImage={projImage}
             techDescription="Java, Java Spring Framework, React, JavaScript, HTML, CSS, Leaflet.js and Stripe Integration."
         >
