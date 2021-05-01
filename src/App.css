@@ -434,15 +434,12 @@ hr {
     margin-top: 1.6em;
     cursor: pointer;
     box-shadow: var(--box-shadow-light);
+    transition: 400ms;
 }
 
 .project-button:hover {
-    border: 0;
-    padding: 0.6em 1em;
-    border-radius: 25px;
-    margin-top: 1.6em;
-    cursor: pointer;
-    box-shadow: var(--box-shadow-heavy);
+    transform: scale(1.1);
+    background-color: rgb(153, 252, 4);
 }
 
 .project-button:focus {
