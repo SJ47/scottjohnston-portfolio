@@ -36,25 +36,14 @@ const PortfolioContainer = () => {
                         <WhatIDo />
                         <WhoIAm />
                         <Projects />
+                    </Route>
 
-                    </Route>
-                    <Route path="/foodee" component={Foodee}>
-                    </Route>
-                    <Route path="/endangered-animals" component={EndangeredAnimals}>
-                        {/* <EndangeredAnimals /> */}
-                    </Route>
-                    <Route path="/tv-show-search-app" component={TvShowSearch}>
-                        {/* <TvShowSearch /> */}
-                    </Route>
-                    <Route path="/retro-video-game-library" component={RetroVideoGameLibrary}>
-                        {/* <RetroVideoGameLibrary /> */}
-                    </Route>
-                    <Route path="/sports-scoring-app" component={SportsScoringApp}>
-                        {/* <SportsScoringApp /> */}
-                    </Route>
-                    <Route path="/rock-paper-scissors-game" component={RockPaperScissors}>
-                        {/* <RockPaperScissors /> */}
-                    </Route>
+                    <Route path="/foodee" component={Foodee} />
+                    <Route path="/endangered-animals" component={EndangeredAnimals} />
+                    <Route path="/tv-show-search-app" component={TvShowSearch} />
+                    <Route path="/retro-video-game-library" component={RetroVideoGameLibrary} />
+                    <Route path="/sports-scoring-app" component={SportsScoringApp} />
+                    <Route path="/rock-paper-scissors-game" component={RockPaperScissors} />
                 </Switch >
             </main>
 
@@ -62,9 +51,7 @@ const PortfolioContainer = () => {
                 <Footer />
             </footer>
         </>
-
     )
 }
 
 export default PortfolioContainer
-
