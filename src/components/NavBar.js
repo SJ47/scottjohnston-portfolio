@@ -4,13 +4,13 @@ import { Link } from "react-scroll"
 
 const NavBar = () => {
 
-    const activeStyle = {
-        borderBottom: "5px solid #e4c619",
-        // borderRight: "5px solid #e4c619",
-        // color: "grey",
-        // borderRadius: "50%",
-        // padding: ".3em .8em",
-    }
+    // const activeStyle = {
+    //     borderBottom: "5px solid #e4c619",
+    //     borderRight: "5px solid #e4c619",
+    //     color: "grey",
+    //     borderRadius: "50%",
+    //     padding: ".3em .8em",
+    // }
 
     return (
 
