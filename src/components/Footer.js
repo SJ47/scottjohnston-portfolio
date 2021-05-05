@@ -30,6 +30,9 @@ const Footer = () => {
                     </a>
                 </li>
             </ul>
+            <div className="footer-bottom-padding">
+                <em className="footer-by-text">by Scott Johnston</em>
+            </div>
         </footer>
     )
 }

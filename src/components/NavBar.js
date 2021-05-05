@@ -1,5 +1,6 @@
 import React from 'react'
-import { NavHashLink } from 'react-router-hash-link';
+// import { NavHashLink as Link } from 'react-router-hash-link';
+import { Link } from "react-scroll"
 
 const NavBar = () => {
 
@@ -16,46 +17,51 @@ const NavBar = () => {
         <div className="navigation">
 
             <div className="navigation-sub">
-                <NavHashLink smooth to=
-                    "/#services"
-                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
-                    className="item"
-                    activeClassName="activeRoute"
-                    activeStyle={activeStyle}
+                <Link
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-60}
+                    duration={1000}
+                    to="services"
                 >
                     My Services
-                </NavHashLink>
+                </Link>
 
-                <NavHashLink smooth to=
-                    "/#about"
-                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
-                    className="item"
-                    activeClassName="activeRoute"
-                    activeStyle={activeStyle}
+                <Link
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-60}
+                    duration={1000}
+                    to="about"
                 >
                     About Me
-                </NavHashLink>
+                </Link>
 
-                <NavHashLink smooth to=
-                    "/#projects"
-                    scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                    className="item"
-                    activeClassName="activeRoute"
-                    activeStyle={activeStyle}
+                <Link
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-55}
+                    duration={1000}
+                    to="projects"
                 >
                     My Projects
-                </NavHashLink>
+                </Link>
 
-                <NavHashLink smooth to=
-                    "/#footer"
-                    className="item"
-                    activeClassName="activeRoute"
-                    activeStyle={activeStyle}
+                <Link
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-55}
+                    duration={1000}
+                    to="footer"
                 >
                     Reach Out
-                </NavHashLink>
+                </Link>
             </div>
-        </div>
+        </div >
     );
 }
 
