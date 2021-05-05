@@ -35,7 +35,7 @@ const Projects = () => {
                 />
 
                 <Thumbnail className="thumbnail"
-                    link="/tv-show-search"
+                    link="/tv-show-search-app"
                     image={projTvShowSearchImage}
                     title="TV Show Search"
                     category="Web App"
@@ -59,7 +59,7 @@ const Projects = () => {
                 />
 
                 <Thumbnail className="thumbnail"
-                    link="/rock-paper-scissors"
+                    link="/rock-paper-scissors-game"
                     image={projRockPaperScissorsImage}
                     title="Rock, Paper & Scissors"
                     category="Web Game"

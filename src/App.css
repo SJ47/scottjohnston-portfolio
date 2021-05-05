@@ -133,6 +133,10 @@ header,
     border-bottom: 5px solid #e4c619;
 }
 
+.navigation-sub {
+    margin-right: 3em;
+}
+
 /*******************/
 /* General section */
 /*******************/
