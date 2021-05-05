@@ -108,6 +108,19 @@ header,
     justify-content: flex-end;
 }
 
+.navigation a {
+    /* background-color: #16e0bd; */
+    margin-left: 1em;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: var(--tertiary-color);
+    cursor: pointer;
+}
+
+.navigation a:hover {
+    border-bottom: 5px solid #e4c619;
+}
+
 .item {
     margin-left: 1em;
     font-size: 1.3em;
@@ -115,7 +128,8 @@ header,
     color: var(--tertiary-color);
 }
 
-.item:hover {
+.item:hover,
+.active {
     border-bottom: 5px solid #e4c619;
 }
 
@@ -491,4 +505,12 @@ hr {
 
 .social-list__link {
     padding: 0.5em;
+}
+
+.footer-bottom-padding {
+    padding-bottom: 20em;
+}
+
+.footer-by-text {
+    font-size: 0.5em;
 }
