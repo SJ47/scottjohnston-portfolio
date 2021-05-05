@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
 
 import NavBar from "../components/NavBar";
 import Logo from "../components/Logo";
@@ -14,14 +14,19 @@ import RetroVideoGameLibrary from "../components/projects/RetroVideoGameLibrary"
 import SportsScoringApp from "../components/projects/SportsScoringApp";
 import RockPaperScissors from "../components/projects/RockPaperScissors";
 import Foodee from "../components/projects/Foodee";
+import GithubCorner from "react-github-corner";
 
 
 const PortfolioContainer = () => {
+
+    const location = "https://github.com/sj47" + useLocation().pathname;
+
     return (
         <>
             <header>
                 <Logo />
                 <NavBar />
+                <GithubCorner href={location} target="_blank" />
             </header>
 
             <main>
@@ -31,13 +36,14 @@ const PortfolioContainer = () => {
                         <WhatIDo />
                         <WhoIAm />
                         <Projects />
+
                     </Route>
                     <Route path="/foodee" component={Foodee}>
                     </Route>
                     <Route path="/endangered-animals" component={EndangeredAnimals}>
                         {/* <EndangeredAnimals /> */}
                     </Route>
-                    <Route path="/tv-show-search" component={TvShowSearch}>
+                    <Route path="/tv-show-search-app" component={TvShowSearch}>
                         {/* <TvShowSearch /> */}
                     </Route>
                     <Route path="/retro-video-game-library" component={RetroVideoGameLibrary}>
@@ -46,7 +52,7 @@ const PortfolioContainer = () => {
                     <Route path="/sports-scoring-app" component={SportsScoringApp}>
                         {/* <SportsScoringApp /> */}
                     </Route>
-                    <Route path="/rock-paper-scissors" component={RockPaperScissors}>
+                    <Route path="/rock-paper-scissors-game" component={RockPaperScissors}>
                         {/* <RockPaperScissors /> */}
                     </Route>
                 </Switch >
