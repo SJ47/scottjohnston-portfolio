@@ -128,8 +128,7 @@ header,
     color: var(--tertiary-color);
 }
 
-.item:hover,
-.active {
+.item:hover {
     border-bottom: 5px solid #e4c619;
 }
 
@@ -517,4 +516,12 @@ hr {
 
 .footer-by-text {
     font-size: 0.5em;
+}
+
+/* .active {
+    border-bottom: 5px solid green;
+} */
+
+.active-nav-link {
+    border-bottom: 5px solid #e4c619;
 }
