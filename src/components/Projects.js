@@ -6,6 +6,7 @@ import projRetroVideoGameLibraryImage from "../static/images/retro-video-game-li
 import projSportsScoringImage from "../static/images/sports-scoring-app.png"
 import projRockPaperScissorsImage from "../static/images/rock-paper-scissors.png"
 import projFoodeeImage from "../static/images/foodee.png"
+import projTodoImage from "../static/images/todo.png"
 
 const Projects = () => {
     return (
@@ -32,6 +33,14 @@ const Projects = () => {
                     title="Endangered Animals"
                     category="Web App"
                     description="Tech: React, JavaScript, HTML, CSS, Express, MongoDB and Leaflet.js."
+                />
+
+                <Thumbnail className="thumbnail"
+                    link="/my-not-todo-list"
+                    image={projTodoImage}
+                    title="My Not ToDo List"
+                    category="Web App"
+                    description="React, JavaScript, MongoDB Atlas, RestAPI, Node, Express, HTML and CSS."
                 />
 
                 <Thumbnail className="thumbnail"

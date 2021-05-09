@@ -15,6 +15,7 @@ import SportsScoringApp from "../components/projects/SportsScoringApp";
 import RockPaperScissors from "../components/projects/RockPaperScissors";
 import Foodee from "../components/projects/Foodee";
 import GithubCorner from "react-github-corner";
+import MyNotToDoList from "../components/projects/MyNotToDoList";
 
 
 const PortfolioContainer = () => {
@@ -37,7 +38,7 @@ const PortfolioContainer = () => {
                         <WhoIAm />
                         <Projects />
                     </Route>
-
+                    <Route path="/my-not-todo-list" component={MyNotToDoList} />
                     <Route path="/foodee" component={Foodee} />
                     <Route path="/endangered-animals" component={EndangeredAnimals} />
                     <Route path="/tv-show-search-app" component={TvShowSearch} />
