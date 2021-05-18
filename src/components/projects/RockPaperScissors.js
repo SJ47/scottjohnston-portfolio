@@ -14,7 +14,7 @@ const RockPaperScissors = () => {
         <ProjectPage
             title="A CodeClan Solo Project"
             projectTitle="Rock, Paper, Scissors Game"
-            subtitle="A Learning with CodeClan Project"
+            subtitle="A simple game of Rock, Paper and Scissors"
             gitHubLink="https://github.com/SJ47/Rock-Paper-Scissors-Game"
             liveAppLink="https://rock-paper-scissors-sj.herokuapp.com/"
             projImage={projImage}

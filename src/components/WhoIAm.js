@@ -15,7 +15,7 @@ const WhoIAm = () => {
                     As a <a href="https://codeclan.com/courses/professional-software-development/" target="_blank" rel="noreferrer">CodeClan</a>
         &nbsp;graduate in Professional Software Development, with a strong attention to detail, I am looking to
         further my hands on approach to problem solving and returning to my first and continued IT related passion in a
-        software development role with a keen eye on Frontend Development.
+        software development role with a keen eye on Front-end Development.
                 </p>
                 <p>
                     I am well-versed in IT with a proven track

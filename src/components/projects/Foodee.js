@@ -15,7 +15,7 @@ const Foodee = () => {
         <ProjectPage
             title="A CodeClan Group Project"
             projectTitle="Foodee App"
-            subtitle="A Learning with CodeClan Project"
+            subtitle="A food & drink table service ordering app"
             gitHubLink="https://github.com/SJ47/foodee"
             // liveAppLink="https://foodee-client.herokuapp.com"
             liveAppLink="https://foodee.scottjohnston.dev"

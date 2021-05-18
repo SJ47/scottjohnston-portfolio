@@ -20,7 +20,7 @@ const WhatIDo = () => {
                     <h3>Back-End Development</h3>
                     <p>
                         Experience working with Python, Flask, Node Express, PostgreSQL, MongoDB and API Fetch. Integrating and
-                        hosting on Heroku, MongoDB Atlas and Firestore platforms.
+                        hosting on Heroku, MongoDB Atlas and Firebase platforms.
                     </p>
                 </div>
                 {/* <!-- / service --> */}

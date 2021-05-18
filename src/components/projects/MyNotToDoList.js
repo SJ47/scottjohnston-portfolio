@@ -13,7 +13,7 @@ const MyNotToDoList = () => {
         <ProjectPage
             title="A Solo Project"
             projectTitle="My Not ToDo List App"
-            subtitle="A Project To Develop MERN Stack Skills"
+            subtitle="Project To Develop MERN Stack Skills"
             gitHubLink="https://github.com/SJ47/my-not-todo-list"
             liveAppLink="https://todo.scottjohnston.dev"
             projImage={projImage}

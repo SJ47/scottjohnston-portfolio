@@ -18,8 +18,14 @@ const ProjectPage = (props) => {
             <section className="intro">
 
                 <h1 className="section__title section__title--intro">
-                    {props.title} <strong>{props.projectTitle}</strong>
+                    {props.title} <strong>{props.projectTitle}
+                    </strong>
+
+
                 </h1>
+
+                <a href={props.liveAppLink} target="_blank" rel="noreferrer">
+                    <span className="project-button-live">View Live!</span></a>
 
                 <p className="section__subtitle section__subtitle--intro">{props.subtitle}</p>
                 <img src={props.projImage} alt="" className="project-intro__img"></img>
@@ -27,14 +33,14 @@ const ProjectPage = (props) => {
             </section>
 
             <div className="portfolio-item-individual">
-                <p>This project uses {props.techDescription}</p>
+                <p><span class="tech-text-reversed">Tech</span>This project uses {props.techDescription}</p>
                 {/* <a href={props.liveAppLink} target="_blank" rel="noreferrer"> */}
                 <img src={props.projImage} alt="portfolio project"></img>
                 {/* </a> */}
 
-                <a href={props.liveAppLink} target="_blank" rel="noreferrer">
+                {/* <a href={props.liveAppLink} target="_blank" rel="noreferrer">
                     <button className="project-button">View Project Running Live!</button>
-                </a>
+                </a> */}
                 <p>View the <a href={props.gitHubLink} target="_blank" rel="noreferrer">source
         code on Github </a>
                     {/* <a className="social-list__link" href="https://github.com/sj47" target="_blank" rel="noreferrer"> */}

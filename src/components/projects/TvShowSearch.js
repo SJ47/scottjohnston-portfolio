@@ -14,7 +14,7 @@ const TvShowSearch = () => {
         <ProjectPage
             title="A CodeClan Solo Project"
             projectTitle="TV Show Search App"
-            subtitle="A Learning with CodeClan Project"
+            subtitle="Search and manage favourite TV shows"
             gitHubLink="https://github.com/SJ47/TV-Show-Search-App"
             liveAppLink="https://tv-show-search.scottjohnston.dev/"
             projImage={projImage}

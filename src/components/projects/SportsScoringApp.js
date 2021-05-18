@@ -14,7 +14,7 @@ const SportsScoringApp = () => {
         <ProjectPage
             title="A CodeClan Solo Project"
             projectTitle="Sports Scoring App"
-            subtitle="A Learning with CodeClan Project"
+            subtitle="Tracking football league and fixtures"
             gitHubLink="https://github.com/SJ47/Sports-Scoring-App"
             liveAppLink="https://sports-scoring-app.herokuapp.com/"
             projImage={projImage}

@@ -11,7 +11,10 @@ const Thumbnail = (props) => {
                         <h3 className="card-title">{props.title}</h3>
                         <img className="project-image" src={props.image} alt="Project One" />
                         <div>
-                            <p className="subtext">{props.description}</p>
+                            <p className="subtext">
+                                <span class="tech-text">Tech</span>
+                                {props.description}
+                            </p>
                         </div>
                         <hr />
                         <p className="subtext"><Link to={props.link} className="project-link" >View here</Link></p>

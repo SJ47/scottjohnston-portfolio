@@ -14,7 +14,7 @@ const EndangeredAnimals = () => {
         <ProjectPage
             title="A CodeClan Group Project"
             projectTitle="Endangered Animals App"
-            subtitle="A Learning with CodeClan Project"
+            subtitle="An educational app about endangered animals"
             gitHubLink="https://github.com/SJ47/project_endangered_animals"
             liveAppLink="https://endangered-animals.herokuapp.com"
             projImage={projImage}

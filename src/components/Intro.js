@@ -7,7 +7,7 @@ const Intro = () => {
             <h1 className="section__title section__title--intro">
                 Hi, I am <strong>Scott Johnston</strong>
             </h1>
-            <p className="section__subtitle section__subtitle--intro">full-stack dev</p>
+            <p className="section__subtitle section__subtitle--intro">software developer</p>
             <img src={introImage} alt="Scott Johnston smiling" className="intro__img" />
         </section>
     )

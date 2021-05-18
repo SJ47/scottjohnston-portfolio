@@ -24,7 +24,7 @@ const Projects = () => {
                     image={projFoodeeImage}
                     title="Foodee"
                     category="Web App for Mobile"
-                    description="Tech: Java, Java Spring Framework, React, JavaScript, HTML, CSS, Leaflet.js and Stripe Integration."
+                    description="Java, Spring Framework, React, JavaScript, HTML, CSS, Leaflet.js and Stripe Integration."
                 />
 
                 <Thumbnail className="thumbnail"
@@ -32,7 +32,7 @@ const Projects = () => {
                     image={projEndangeredAnimalsImage}
                     title="Endangered Animals"
                     category="Web App"
-                    description="Tech: React, JavaScript, HTML, CSS, Express, MongoDB and Leaflet.js."
+                    description="React, JavaScript, HTML, CSS, Express, MongoDB and Leaflet.js."
                 />
 
                 <Thumbnail className="thumbnail"
@@ -48,7 +48,7 @@ const Projects = () => {
                     image={projTvShowSearchImage}
                     title="TV Show Search"
                     category="Web App"
-                    description="Tech: React, JavaScript, HTML, CSS and fetching external API data from TVMaze."
+                    description="React, JavaScript, HTML, CSS and fetching external API data from TVMaze."
                 />
 
                 <Thumbnail className="thumbnail"
@@ -56,7 +56,7 @@ const Projects = () => {
                     image={projRetroVideoGameLibraryImage}
                     title="Retro Video Game Library"
                     category="Web App"
-                    description="Tech: JavaScript to inject HTML and manipulate the DOM using JavaScript, HTML, CSS and the DOM."
+                    description="JavaScript to inject HTML and manipulate the DOM using JavaScript, HTML, CSS and the DOM."
                 />
 
                 <Thumbnail className="thumbnail"
@@ -64,7 +64,7 @@ const Projects = () => {
                     image={projSportsScoringImage}
                     title="Sports Scoring App"
                     category="Web App"
-                    description="Tech: Python, Flask, PostgreSQL, HTML, CSS."
+                    description="Python, Flask, PostgreSQL, HTML, CSS."
                 />
 
                 <Thumbnail className="thumbnail"
@@ -72,7 +72,7 @@ const Projects = () => {
                     image={projRockPaperScissorsImage}
                     title="Rock, Paper & Scissors"
                     category="Web Game"
-                    description="Tech: Python, Flask, HTML, CSS."
+                    description="Python, Flask, HTML, CSS."
                 />
 
             </div>
