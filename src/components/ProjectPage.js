@@ -31,7 +31,7 @@ const ProjectPage = (props) => {
             </section>
 
             <div className="portfolio-item-individual">
-                <p className="tech-text-container"><span class="tech-text-reversed">Tech</span>This project uses {props.techDescription}</p>
+                <p className="tech-text-container"><span className="tech-text-reversed">Tech</span>This project uses {props.techDescription}</p>
                 {/* <a href={props.liveAppLink} target="_blank" rel="noreferrer"> */}
                 <img src={props.projImage} alt="portfolio project"></img>
                 {/* </a> */}
