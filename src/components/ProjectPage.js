@@ -20,12 +20,10 @@ const ProjectPage = (props) => {
                 <h1 className="section__title section__title--intro">
                     {props.title} <strong>{props.projectTitle}
                     </strong>
-
-
                 </h1>
 
                 <a href={props.liveAppLink} target="_blank" rel="noreferrer">
-                    <span className="project-button-live">View Live!</span></a>
+                    <span className="project-button-live">Live Demo!</span></a>
 
                 <p className="section__subtitle section__subtitle--intro">{props.subtitle}</p>
                 <img src={props.projImage} alt="" className="project-intro__img"></img>
@@ -33,7 +31,7 @@ const ProjectPage = (props) => {
             </section>
 
             <div className="portfolio-item-individual">
-                <p><span class="tech-text-reversed">Tech</span>This project uses {props.techDescription}</p>
+                <p className="tech-text-container"><span class="tech-text-reversed">Tech</span>This project uses {props.techDescription}</p>
                 {/* <a href={props.liveAppLink} target="_blank" rel="noreferrer"> */}
                 <img src={props.projImage} alt="portfolio project"></img>
                 {/* </a> */}

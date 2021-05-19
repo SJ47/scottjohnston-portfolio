@@ -461,13 +461,13 @@ hr {
 }
 
 .project-button-live {
-    border: 0;
+    border: 3px solid grey;
     padding: 0.2em 0.6em;
     cursor: pointer;
     box-shadow: var(--box-shadow-heavy);
     transition: 400ms;
     border-radius: 25px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     transform: rotate(-30deg);
     -webkit-transform: rotate(-30deg);
     position: relative;
@@ -476,11 +476,13 @@ hr {
     z-index: 1;
     display: inline-block;
     font-weight: bold;
+    color: rgb(234, 83, 242);
+    background: greenyellow;
+    border-top: 1px solid grey;
 }
 
 .project-button-live:hover {
     transform: scale(1.1);
-    background-color: rgb(153, 252, 4);
 }
 
 .project-button-live:focus {
@@ -505,6 +507,10 @@ hr {
     margin-right: 0.5em;
     font-size: 1.2em;
     box-shadow: var(--box-shadow-left-to-right);
+}
+
+.tech-text-container {
+    margin-top: 0;
 }
 
 /******************/
