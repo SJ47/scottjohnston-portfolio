@@ -1,6 +1,10 @@
 import React from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
 
+import GithubCorner from "react-github-corner";
+
+import ProjectData from "../data.json"
+
 import NavBar from "../components/NavBar";
 import Logo from "../components/Logo";
 import Intro from "../components/Intro";
@@ -8,17 +12,19 @@ import WhatIDo from "../components/WhatIDo";
 import WhoIAm from "../components/WhoIAm";
 import Footer from "../components/Footer";
 import Projects from "../components/Projects";
+
 import EndangeredAnimals from "../components/projects/EndangeredAnimals";
 import TvShowSearch from "../components/projects/TvShowSearch";
 import RetroVideoGameLibrary from "../components/projects/RetroVideoGameLibrary";
 import SportsScoringApp from "../components/projects/SportsScoringApp";
 import RockPaperScissors from "../components/projects/RockPaperScissors";
 import Foodee from "../components/projects/Foodee";
-import GithubCorner from "react-github-corner";
 import MyNotToDoList from "../components/projects/MyNotToDoList";
 
 
 const PortfolioContainer = () => {
+
+    // console.log(ProjectData[0].link);
 
     const location = "https://github.com/sj47" + useLocation().pathname;
 

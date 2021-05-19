@@ -31,10 +31,22 @@ const ProjectPage = (props) => {
             </section>
 
             <div className="portfolio-item-individual">
-                <p className="tech-text-container"><span className="tech-text-reversed">Tech</span>This project uses {props.techDescription}</p>
-                {/* <a href={props.liveAppLink} target="_blank" rel="noreferrer"> */}
-                <img src={props.projImage} alt="portfolio project"></img>
-                {/* </a> */}
+                <div className="portfolio-item-individual-left">
+                    <p className="tech-text-container"><span className="tech-text-reversed">Tech</span></p>
+                    <p>{props.techDescription}</p>
+
+                    <p className="tech-text-container"><span className="tech-text-reversed">Brief</span></p>
+                    <p>{props.mvp}</p>
+
+                    <p className="tech-text-container"><span className="tech-text-reversed">Learning</span></p>
+                    <p>{props.learning}</p>
+                </div>
+
+                <div className="portfolio-item-individual-right">
+                    {/* <a href={props.liveAppLink} target="_blank" rel="noreferrer"> */}
+                    <img src={props.projImage} alt="portfolio project"></img>
+                    {/* </a> */}
+                </div>
 
                 {/* <a href={props.liveAppLink} target="_blank" rel="noreferrer">
                     <button className="project-button">View Project Running Live!</button>

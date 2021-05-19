@@ -12,7 +12,7 @@ const Thumbnail = (props) => {
                         <img className="project-image" src={props.image} alt="Project One" />
                         <div>
                             <p className="subtext">
-                                <span class="tech-text">Tech</span>
+                                <span className="tech-text">Tech</span>
                                 {props.description}
                             </p>
                         </div>
