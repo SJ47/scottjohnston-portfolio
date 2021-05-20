@@ -21,10 +21,9 @@ import RockPaperScissors from "../components/projects/RockPaperScissors";
 import Foodee from "../components/projects/Foodee";
 import MyNotToDoList from "../components/projects/MyNotToDoList";
 
+import ProjectTemplate from "../components/projects/ProjectTemplate";
 
 const PortfolioContainer = () => {
-
-    // console.log(ProjectData[0].link);
 
     const location = "https://github.com/sj47" + useLocation().pathname;
 
@@ -42,7 +41,7 @@ const PortfolioContainer = () => {
                         <Intro />
                         <WhatIDo />
                         <WhoIAm />
-                        <Projects />
+                        <Projects projects={ProjectData} />
                     </Route>
                     <Route path="/my-not-todo-list" component={MyNotToDoList} />
                     <Route path="/foodee" component={Foodee} />
@@ -51,6 +50,10 @@ const PortfolioContainer = () => {
                     <Route path="/retro-video-game-library" component={RetroVideoGameLibrary} />
                     <Route path="/sports-scoring-app" component={SportsScoringApp} />
                     <Route path="/rock-paper-scissors-game" component={RockPaperScissors} />
+
+                    {/* <Route path={ProjectData.link}>
+                        <ProjectTemplate projects={ProjectData} />
+                    </Route> */}
                 </Switch >
             </main>
 
