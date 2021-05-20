@@ -17,7 +17,7 @@ const Thumbnail = (props) => {
                             </p>
                         </div>
                         <hr />
-                        <p className="subtext"><Link to={props.link} className="project-link" >View here</Link></p>
+                        <p className="subtext"><Link to={props.link} className="project-link" id={props.id}>View here</Link></p>
 
                     </div>
                 </div>
