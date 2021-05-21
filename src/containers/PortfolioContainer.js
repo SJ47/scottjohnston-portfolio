@@ -13,7 +13,7 @@ import WhoIAm from "../components/WhoIAm";
 import Footer from "../components/Footer";
 import Projects from "../components/Projects";
 
-import ProjectTemplate from "../components/projects/ProjectTemplate";
+import ProjectPage from "../components/ProjectPage";
 
 const PortfolioContainer = () => {
 
@@ -22,8 +22,8 @@ const PortfolioContainer = () => {
     // Loop through ProjectData and build out routes for each project
     const listOfProjectRoutes = ProjectData.map((project) => {
         return (
-            <Route path={project.link}>
-                <ProjectTemplate project={project} />
+            <Route key={project.id} path={project.link}>
+                <ProjectPage project={project} />
             </Route>
         )
     })

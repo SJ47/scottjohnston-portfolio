@@ -368,7 +368,6 @@ main {
 }
 
 .portfolio-item-individual {
-    /* padding: 0 2em 2em; */
     max-width: 1000px;
     margin: 0 auto;
     text-align: left;
@@ -383,26 +382,16 @@ main {
 }
 
 .portfolio-item-individual-left {
-    /* margin-left: 3em; */
     box-shadow: var(--box-shadow-left-to-right);
     padding: 1em;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 .portfolio-item-individual-right {
-    /* margin-right: 2em; */
     box-shadow: var(--box-shadow-left-to-right);
-    /* padding: 1em; */
     margin-left: auto;
     margin-right: auto;
-
-    /* border: 1px solid red; */
     margin-bottom: 5em;
 }
 
-/* .tech-text-container p {
-    background: #e4c619;
-} */
 /************************/
 /* Project card section */
 /************************/

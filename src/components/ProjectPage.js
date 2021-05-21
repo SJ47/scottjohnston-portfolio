@@ -1,6 +1,13 @@
 import React from 'react'
 
+
 const ProjectPage = ({ project }) => {
+
+    // Ensure page starts at top when rendered
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 
     return (
         <div>
@@ -22,7 +29,6 @@ const ProjectPage = ({ project }) => {
             <div className="portfolio-item-individual">
                 <div className="portfolio-item-individual-left">
                     <p className="tech-text-container"><span className="tech-text-reversed">Tech</span>{project.techDescription}</p>
-                    {/* <p>{project.techDescription}</p> */}
 
                     <p className="tech-text-container"><span className="tech-text-reversed">Brief</span>{project.brief}</p>
                     {/* <p>{project.brief}</p> */}
