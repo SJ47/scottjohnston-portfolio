@@ -603,7 +603,6 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* text-align: center; */
     }
 
     .about-me__img {
@@ -645,8 +644,11 @@ hr {
         justify-self: center;
     }
 
+    .navigation {
+        margin-left: 2em;
+        justify-content: center;
+    }
     .navigation-sub {
-        /* background: #16e0bd; */
         display: flex;
         flex-wrap: no-wrap;
         line-height: 1.1;
@@ -654,10 +656,22 @@ hr {
 
     .navigation-sub a {
         border-right: 1px solid rgba(128, 128, 128, 0.3);
+        text-align: center;
+        margin: 0 auto;
+        padding: 0.5em;
+    }
+
+    .navigation-sub a:last-of-type {
+        border-right: 0;
     }
 
     .services {
         flex-direction: column;
+    }
+
+    .service {
+        margin-left: 0.3em;
+        margin-right: 0.3em;
     }
 
     .intro {
@@ -684,6 +698,12 @@ hr {
         width: fit-content;
     }
 
+    .section__subtitle--about {
+        padding-left: 0;
+        left: 0;
+        text-align: center;
+    }
+
     .portfolio {
         width: fit-content;
         justify-content: center;
@@ -691,5 +711,10 @@ hr {
 
     .footer {
         font-size: 1em;
+        padding: 0.5em;
+    }
+
+    .footer-bottom-padding {
+        padding-bottom: 4em;
     }
 }
