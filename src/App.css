@@ -680,12 +680,6 @@ hr {
         align-items: center;
     }
 
-    .intro__img {
-        width: 50%;
-        height: 50%;
-        border-radius: 0;
-    }
-
     .section__title--intro {
         font-size: 1.5em;
         text-align: center;
@@ -740,7 +734,6 @@ hr {
 
     .project-intro__img {
         display: none;
-        /* border-radius: 0; */
     }
 
     .section__subtitle--intro {
