@@ -9,15 +9,15 @@ const Thumbnail = (props) => {
                 <div className="project-container">
                     <div className="project-card">
                         <h3 className="card-title">{props.title}</h3>
-                        <img className="project-image" src={props.image} alt="Project One" />
+                        <img className="project-image" src={props.image} alt="Project title" />
                         <div>
                             <p className="subtext">
-                                <span class="tech-text">Tech</span>
+                                <span className="tech-text">Tech</span>
                                 {props.description}
                             </p>
                         </div>
                         <hr />
-                        <p className="subtext"><Link to={props.link} className="project-link" >View here</Link></p>
+                        <p className="subtext"><Link to={props.link} className="project-link" id={props.id}>View here</Link></p>
 
                     </div>
                 </div>
