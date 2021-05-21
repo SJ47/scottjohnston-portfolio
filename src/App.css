@@ -574,3 +574,169 @@ hr {
 .footer-by-text {
     font-size: 0.5em;
 }
+
+/***********************/
+/* Responsive section  */
+/* MAX 800px MIN 590px */
+/***********************/
+
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro__img {
+        min-width: 150px;
+        max-height: 150px;
+    }
+
+    .section__title--intro {
+        font-size: 2em;
+    }
+
+    .section__subtitle--intro {
+        font-size: 1.2em;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me__img {
+        min-width: 100px;
+        max-height: 150px;
+        border-radius: 0%;
+    }
+
+    .section__title--about {
+        font-size: 2em;
+    }
+    .section__subtitle--about {
+        font-size: 1em;
+        padding-right: 0;
+    }
+
+    .portfolio {
+        justify-content: center;
+    }
+
+    .footer {
+        font-size: 1.2em;
+    }
+}
+
+/***********************/
+/* Responsive section  */
+/* MAX 600px           */
+/***********************/
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        z-index: 0;
+        justify-self: center;
+    }
+
+    .navigation {
+        margin-left: 2em;
+        justify-content: center;
+    }
+    .navigation-sub {
+        display: flex;
+        flex-wrap: no-wrap;
+        line-height: 1.1;
+    }
+
+    .navigation-sub a {
+        border-right: 1px solid rgba(128, 128, 128, 0.3);
+        text-align: center;
+        margin: 0 auto;
+        padding: 0.5em;
+    }
+
+    .navigation-sub a:last-of-type {
+        border-right: 0;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .service {
+        margin-left: 0.3em;
+        margin-right: 0.3em;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__title--intro {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .section__subtitle--intro {
+        font-size: 1em;
+        left: 0;
+        text-align: center;
+        width: fit-content;
+    }
+
+    .section__subtitle--about {
+        padding-left: 0;
+        left: 0;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .portfolio {
+        width: fit-content;
+        justify-content: center;
+    }
+
+    .footer {
+        font-size: 1em;
+        padding: 0.5em;
+    }
+
+    .footer-bottom-padding {
+        padding-bottom: 4em;
+    }
+
+    .project-button-live {
+        transition: 400ms;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        top: 0px;
+        left: 0px;
+        margin-top: 0.7em;
+        margin-bottom: 1em;
+        width: max-content;
+    }
+
+    .project-button-live:hover {
+        transform: scale(1.1);
+    }
+
+    .project-button-live:focus {
+        outline: none;
+    }
+
+    .project-intro__img {
+        display: none;
+    }
+
+    .section__subtitle--intro {
+        width: 100vw;
+    }
+}
