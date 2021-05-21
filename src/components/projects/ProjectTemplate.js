@@ -15,13 +15,6 @@ const ProjectTemplate = ({ project }) => {
     return (
         <ProjectPage
             project={project}
-        // title={project.title}
-        // projectTitle={project.projectTitle}
-        // subtitle={project.subtitle}
-        // gitHubLink={project.gitHubLink}
-        // liveAppLink={project.liveAppLink}
-        // projImage={project.image}
-        // techDescription={project.techDescription}
         >
         </ProjectPage>
     )

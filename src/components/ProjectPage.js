@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ProjectPage = ({ project }) => {
-    console.log("troubleshooting: ", project);
+
     return (
         <div>
             <section className="intro">
@@ -21,24 +21,25 @@ const ProjectPage = ({ project }) => {
 
             <div className="portfolio-item-individual">
                 <div className="portfolio-item-individual-left">
-                    <p className="tech-text-container"><span className="tech-text-reversed">Tech</span></p>
-                    <p>{project.techDescription}</p>
+                    <p className="tech-text-container"><span className="tech-text-reversed">Tech</span>{project.techDescription}</p>
+                    {/* <p>{project.techDescription}</p> */}
 
-                    <p className="tech-text-container"><span className="tech-text-reversed">Brief</span></p>
-                    <p>{project.mvp}</p>
+                    <p className="tech-text-container"><span className="tech-text-reversed">Brief</span>{project.brief}</p>
+                    {/* <p>{project.brief}</p> */}
 
-                    <p className="tech-text-container"><span className="tech-text-reversed">Learning</span></p>
-                    <p>{project.learning}</p>
+                    {/* <p className="tech-text-container"><span className="tech-text-reversed">Learning</span>{project.learning}</p> */}
+                    {/* <p>{project.learning}</p> */}
                 </div>
 
                 <div className="portfolio-item-individual-right">
                     <img src={project.image} alt="portfolio project"></img>
                 </div>
 
-                <p>View the <a href={project.gitHubLink} target="_blank" rel="noreferrer">source
+                {/* <p>View the <a href={project.gitHubLink} target="_blank" rel="noreferrer">source
         code on Github </a>
                     <i className="fab fa-github"></i>
-                </p>
+                </p> */}
+
             </div>
         </div >
     )
