@@ -702,6 +702,7 @@ hr {
         padding-left: 0;
         left: 0;
         text-align: center;
+        width: 100vw;
     }
 
     .portfolio {
@@ -716,5 +717,33 @@ hr {
 
     .footer-bottom-padding {
         padding-bottom: 4em;
+    }
+
+    .project-button-live {
+        transition: 400ms;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        top: 0px;
+        left: 0px;
+        margin-top: 0.7em;
+        margin-bottom: 1em;
+        width: max-content;
+    }
+
+    .project-button-live:hover {
+        transform: scale(1.1);
+    }
+
+    .project-button-live:focus {
+        outline: none;
+    }
+
+    .project-intro__img {
+        display: none;
+        /* border-radius: 0; */
+    }
+
+    .section__subtitle--intro {
+        width: 100vw;
     }
 }
