@@ -9,11 +9,7 @@ const Projects = ({ projects }) => {
             <Thumbnail
                 key={project.id}
                 className="thumbnail"
-                link={project.link}
-                image={project.image}  // works with images in public folder
-                title={project.projectName}
-                category={project.category}
-                description={project.techDescription}
+                project={project}
             />
         )
     })
