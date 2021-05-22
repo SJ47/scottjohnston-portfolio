@@ -1,24 +1,40 @@
 import React from 'react';
 import { Link } from "react-router-dom"
 
-const Thumbnail = (props) => {
+const Thumbnail = ({ project }) => {
     return (
         <div className="project" id="projects">
 
             <section className="sub-section-alternative" id="projects">
                 <div className="project-container">
                     <div className="project-card">
-                        <h3 className="card-title">{props.title}</h3>
-                        <img className="project-image" src={props.image} alt="Project title" />
-                        <div>
-                            <p className="subtext">
-                                <span className="tech-text">Tech</span>
-                                {props.description}
-                            </p>
+                        <div className="flip-card-front">
+                            <h3 className="card-title">{project.projectName}
+                                <span className="corner-fold-behind"> &#9701;</span>
+                                <span className="corner-fold-text">...</span>
+                            </h3>
+                            <img className="project-image" src={project.image} alt="Project title" />
+                            <div>
+                                <p className="subtext">
+                                    <span className="tech-text">Tech</span>
+                                    {project.techDescription}
+                                </p>
+                            </div>
+                            <hr />
+                            <p className="subtext"><Link to={project.link} className="project-link" id={project.id}>View here</Link></p>
                         </div>
-                        <hr />
-                        <p className="subtext"><Link to={props.link} className="project-link" id={props.id}>View here</Link></p>
+                        <div className="flip-card-back">
+                            <h3 className="card-title">{project.projectName}</h3>
+                            <div>
+                                <div className="subtext">
+                                    <p className="tech-text">Brief</p>
+                                    <p className="card-back-text">{project.brief}</p>
+                                    <hr />
+                                    <p className="subtext"><Link to={project.link} className="project-link" id={project.id}>View project page</Link></p>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
             </section>
