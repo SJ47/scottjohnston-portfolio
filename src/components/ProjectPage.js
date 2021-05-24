@@ -1,5 +1,5 @@
 import React from 'react'
-
+import demoImage from "../static/images/demo.jpeg"
 
 const ProjectPage = ({ project }) => {
 
@@ -9,44 +9,69 @@ const ProjectPage = ({ project }) => {
         behavior: "smooth"
     });
 
+    // map through tech description and assign a class around each technology
+    const tempTech = project.techDescription.split(" | ")
+    const techItems = tempTech.map((techItem, index) => {
+        return (
+            <div key={index} className="tech-item">
+                {techItem}
+            </div>
+        )
+    })
+
     return (
         <div>
-            <section className="intro">
+            <section className="intro"> {/*  grid */}
 
                 <h1 className="section__title section__title--intro">
                     {project.projectTeam}<strong>{project.projectTitle}
                     </strong>
                 </h1>
 
-                <a href={project.liveAppLink} target="_blank" rel="noreferrer">
-                    <span className="project-button-live">Live Demo!</span></a>
-
                 <p className="section__subtitle section__subtitle--intro">{project.subtitle}</p>
                 <img src={project.image} alt="" className="project-intro__img"></img>
-
             </section>
 
-            <div className="portfolio-item-individual">
-                <div className="portfolio-item-individual-left">
-                    <p className="tech-text-container"><span className="tech-text-reversed">Tech</span>{project.techDescription}</p>
+            <span className="demo-image-container">
 
-                    <p className="tech-text-container"><span className="tech-text-reversed">Brief</span>{project.brief}</p>
-                    {/* <p>{project.brief}</p> */}
+                <a href={project.liveAppLink} target="_blank" rel="noreferrer">
+                    <img src={demoImage} className="demo-image" alt="demo" />
+                </a>
+            </span>
 
-                    {/* <p className="tech-text-container"><span className="tech-text-reversed">Learning</span>{project.learning}</p> */}
-                    {/* <p>{project.learning}</p> */}
-                </div>
+            <div className="project-main-container">
 
-                <div className="portfolio-item-individual-right">
-                    <img src={project.image} alt="portfolio project"></img>
-                </div>
+                <main className="left-container">
 
-                {/* <p>View the <a href={project.gitHubLink} target="_blank" rel="noreferrer">source
-        code on Github </a>
-                    <i className="fab fa-github"></i>
-                </p> */}
+                    <p className="text-headings">
+                        <span>brief</span>
+                    </p>
+                    <p className="first-letter" dangerouslySetInnerHTML={{ __html: project.brief }} />
 
+                    <p className="text-headings">
+                        <span>
+                            learning
+                        </span>
+                    </p>
+                    <p className="first-thing" dangerouslySetInnerHTML={{ __html: project.learning }} />
+                </main>
+
+                <aside className="right-container">
+                    <p className="text-headings">
+                        <span>technology</span>
+                    </p>
+
+                    <span>{techItems}</span>
+
+                    <div className="image-container">
+                        <img className="image-right" src={project.image} alt="portfolio project"></img>
+                    </div>
+
+
+                </aside>
             </div>
+
+
         </div >
     )
 }

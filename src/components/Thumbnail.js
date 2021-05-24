@@ -29,8 +29,8 @@ const Thumbnail = ({ project }) => {
                                 <div className="subtext">
                                     <p className="tech-text">Brief</p>
                                     <p className="card-back-text">{project.brief}</p>
-                                    <hr />
-                                    <p className="subtext"><Link to={project.link} className="project-link" id={project.id}>View project page</Link></p>
+                                    <hr className="subtext-hr" />
+                                    <p className="subtext subtext-link"><Link to={project.link} className="project-link" id={project.id}>View here</Link></p>
                                 </div>
                             </div>
 
