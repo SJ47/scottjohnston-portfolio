@@ -443,6 +443,23 @@ hr {
     height: 4em;
 }
 
+.subtext-hr {
+    position: fixed;
+    bottom: 3em;
+    width: 80%;
+    /* margin: -1em; */
+    padding: 0;
+    border: 1px solid grey;
+}
+
+.subtext-link {
+    position: fixed;
+    bottom: -2.5em;
+    width: 80%;
+    /* margin: -1em; */
+    padding: 0;
+}
+
 .project-link {
     text-decoration: none;
     color: #ef744b;
@@ -467,6 +484,11 @@ hr {
     outline: none;
 }
 
+.live-demo-button-container {
+    display: flex;
+    justify-content: center;
+}
+
 .project-button-live {
     border: 3px solid grey;
     padding: 0.2em 0.6em;
@@ -474,17 +496,13 @@ hr {
     box-shadow: var(--box-shadow-heavy);
     transition: 400ms;
     border-radius: 25px;
-    font-size: 1.2rem;
-    transform: rotate(-30deg);
-    -webkit-transform: rotate(-30deg);
-    position: relative;
-    top: -80px;
-    left: 250px;
-    z-index: 1;
+    font-size: 1.4rem;
     display: inline-block;
     font-weight: bold;
     color: rgb(234, 83, 242);
     background: greenyellow;
+    color: var(--tertiary-color);
+    background-color: var(--clr-accent);
     border-top: 1px solid grey;
 }
 
@@ -514,10 +532,6 @@ hr {
     margin-right: 0.5em;
     font-size: 1.2em;
     box-shadow: var(--box-shadow-left-to-right);
-}
-
-.tech-text-container {
-    margin-top: 0;
 }
 
 /******************/
@@ -793,4 +807,87 @@ hr {
     .section__subtitle--intro {
         width: 100vw;
     }
+}
+
+/*************************/
+/* Project Page Redesign */
+/*************************/
+
+.project-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    padding: 2em;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.left-container {
+    padding-top: 0;
+    margin-left: 4em;
+    margin-top: 0;
+    /* font-weight: bold; */
+}
+
+.right-container {
+    /* font-weight: bold; */
+    margin-top: 0;
+    margin-right: 4em;
+}
+
+.text-vertical {
+    background: var(--tertiary-color);
+    color: var(--clr-accent);
+    padding: 0 1em;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.tech-item {
+    background: var(--clr-accent);
+    margin: 0.5em;
+    border-radius: 25px;
+    padding: 0.2em 0.7em;
+    color: var(--tertiary-color);
+    font-weight: bold;
+    white-space: wrap;
+    width: fit-content;
+    display: inline-block;
+    color: #fff;
+    background: rgb(56, 139, 228);
+}
+
+/* .tech-item:hover {
+    background: green;
+    cursor: pointer;
+} */
+.tech-text-header {
+    font-size: 2em;
+    width: 95%;
+}
+
+.image-test {
+    padding-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.demo-image-container {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.demo-image {
+    width: 150px;
+    position: relative;
+    top: -31px;
+    transition: 400ms;
+    filter: grayscale(100%);
+}
+
+.demo-image:hover {
+    filter: grayscale(0%);
+    width: 160px;
 }
