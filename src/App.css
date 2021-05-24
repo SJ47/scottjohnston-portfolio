@@ -826,16 +826,14 @@ hr {
     padding-top: 0;
     margin-left: 4em;
     margin-top: 0;
-    /* font-weight: bold; */
 }
 
 .right-container {
-    /* font-weight: bold; */
     margin-top: 0;
     margin-right: 4em;
 }
 
-.text-vertical {
+.text-headings {
     background: var(--tertiary-color);
     color: var(--clr-accent);
     padding: 0 1em;
@@ -858,16 +856,7 @@ hr {
     background: rgb(56, 139, 228);
 }
 
-/* .tech-item:hover {
-    background: green;
-    cursor: pointer;
-} */
-.tech-text-header {
-    font-size: 2em;
-    width: 95%;
-}
-
-.image-test {
+.image-right {
     padding-top: 2em;
     margin-left: auto;
     margin-right: auto;

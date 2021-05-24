@@ -32,30 +32,23 @@ const ProjectPage = ({ project }) => {
                 <img src={project.image} alt="" className="project-intro__img"></img>
             </section>
 
-            {/* <div className="live-demo-button-container"> */}
-
             <span className="demo-image-container">
 
                 <a href={project.liveAppLink} target="_blank" rel="noreferrer">
                     <img src={demoImage} className="demo-image" alt="demo" />
                 </a>
             </span>
-            {/* <span className="project-button-live">View Live Demo!</span> */}
-
-
-
-            {/* </div> */}
 
             <div className="project-main-container">
 
                 <main className="left-container">
 
-                    <p className="text-vertical">
+                    <p className="text-headings">
                         <span>brief</span>
                     </p>
                     <p className="first-letter" dangerouslySetInnerHTML={{ __html: project.brief }} />
 
-                    <p className="text-vertical">
+                    <p className="text-headings">
                         <span>
                             learning
                         </span>
@@ -64,14 +57,14 @@ const ProjectPage = ({ project }) => {
                 </main>
 
                 <aside className="right-container">
-                    <p className="text-vertical">
+                    <p className="text-headings">
                         <span>technology</span>
                     </p>
 
                     <span>{techItems}</span>
 
                     <div className="image-container">
-                        <img className="image-test" src={project.image} alt="portfolio project"></img>
+                        <img className="image-right" src={project.image} alt="portfolio project"></img>
                     </div>
 
 
