@@ -32,7 +32,7 @@ const Thumbnail = ({ project }) => {
                                     <p className="card-back-text">{project.brief}</p>
                                     <hr className="subtext-hr" />
                                     <p className="subtext subtext-link"><Link to={project.link} className="project-link" id={project.id}>Project page <i class="fas fa-arrow-right"></i></Link></p>
-                                    <i class=""></i>
+                                    <i></i>
                                 </div>
                             </div>
 
