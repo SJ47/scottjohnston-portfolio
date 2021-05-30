@@ -534,6 +534,13 @@ hr {
     box-shadow: var(--box-shadow-left-to-right);
 }
 
+.fa-angle-double-right,
+.fa-arrow-right {
+    position: relative;
+    top: 2px;
+    right: -2px;
+}
+
 /******************/
 /* Footer section */
 /******************/

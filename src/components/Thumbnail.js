@@ -21,7 +21,8 @@ const Thumbnail = ({ project }) => {
                                 </p>
                             </div>
                             <hr />
-                            <p className="subtext"><Link to={project.link} className="project-link" id={project.id}>View here</Link></p>
+                            {/* <p className="subtext"><Link to={project.link} className="project-link" id={project.id}>Learn more <i class="fas fa-angle-right"></i></Link></p> */}
+                            <p className="subtext project-link">Learn more <i class="fas fa-angle-double-right"></i></p>
                         </div>
                         <div className="flip-card-back">
                             <h3 className="card-title">{project.projectName}</h3>
@@ -30,7 +31,7 @@ const Thumbnail = ({ project }) => {
                                     <p className="tech-text">Brief</p>
                                     <p className="card-back-text">{project.brief}</p>
                                     <hr className="subtext-hr" />
-                                    <p className="subtext subtext-link"><Link to={project.link} className="project-link" id={project.id}>View here</Link></p>
+                                    <p className="subtext subtext-link"><Link to={project.link} className="project-link" id={project.id}>Project page <i class="fas fa-arrow-right"></i></Link></p>
                                 </div>
                             </div>
 
