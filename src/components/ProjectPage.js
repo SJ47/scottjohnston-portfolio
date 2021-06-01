@@ -3,6 +3,25 @@ import demoImage from "../static/images/demo.jpeg"
 
 const ProjectPage = ({ project }) => {
 
+    // Wake up heroku project online in advance of someone visiting from my portfolio page
+    if (project.liveAppLink.includes("herokuapp.com")) {
+        // console.log("Fetching: ", project.liveAppLink);
+        const projectWebPage = project.liveAppLink
+        fetch(projectWebPage, {
+            mode: "no-cors"
+        })
+
+    } else if (project.liveAppLink.includes("foodee")) {
+        // console.log("Fetching: foodee-client.herokuapp.com");
+        fetch("https://foodee-client.herokuapp.com", {
+            mode: "no-cors"
+        })
+        // console.log("Fetching: foodee-service.herokuapp.com");
+        fetch("https://foodee-service.herokuapp.com/payments", {
+            mode: "no-cors"
+        })
+    }
+
     // Ensure page starts at top when rendered
     window.scrollTo({
         top: 0,
