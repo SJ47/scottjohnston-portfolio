@@ -19,7 +19,7 @@ const WhatIDo = () => {
                 <div className="service">
                     <h3>Back-End Development</h3>
                     <p>
-                        Experience working with Python, Flask, Node Express, PostgreSQL, MongoDB and API Fetch. Integrating and
+                        Experience working with Java, Spring, Python, Flask, Node Express, PostgreSQL, MongoDB and API Fetch. Integrating and
                         hosting on Heroku, MongoDB Atlas and Firebase platforms.
                     </p>
                 </div>
