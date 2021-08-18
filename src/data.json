@@ -1,5 +1,36 @@
 [
     {
+        "id": 10,
+        "projectName": "Slider Puzzle Game",
+        "projectTitle": "Slider Puzzle Game",
+        "projectTeam": "A Solo Project",
+        "subtitle": "A 15 puzzle slider style game",
+        "category": "Web game app",
+        "techDescription": "React | JavaScript | HTML | CSS | Netlify Hosting | GitHub",
+        "link": "/slider-puzzle-game",
+        "gitHubLink": "https://github.com/SJ47/slider-puzzle-game",
+        "liveAppLink": "https://slider.scottjohnston.dev/",
+        "image": "../static/images/slider-puzzle-game.png",
+        "brief": "Create a classic 15 sliding tile style puzzle game where the player moves numbers around to get them into the correct order. ",
+        "learning": "<p>The object of this project was create the basics of a slider puzzle game that could be used a baseline for growing out this game with additional gaming options or as a template for similar style grid and board games.</p><p>The learning in this project was more about the logic and checking the game play always followed the logic of what is allowed in the game.  For example, keeping track of the space tile and being able to move the space tile by clicking on its surrounding numbers.</p>"
+    },
+    {
+        "id": 9,
+        "projectName": "Firebase Auth Demo",
+        "projectTitle": "Firebase AUthentication",
+        "projectTeam": "A Solo Project",
+        "subtitle": "Firebase Authentication Demo",
+        "category": "Web app",
+        "techDescription": "React | JavaScript | Firebase Auth | Firebase Firestore | HTML | CSS | Netlify Hosting | GitHub",
+        "link": "/firebase-auth-demo",
+        "gitHubLink": "https://github.com/SJ47/firebase-auth-demo",
+        "liveAppLink": "https://firebase-auth-demo.scottjohnston.dev/",
+        "image": "../static/images/firebase-auth.png",
+        "miniBrief": "Create a demo app module to use Firebase email and password authentication and Firebase Firestore database to store user credentials.  Also have a working option to sign in with Google OAuth 2.0 as an alternative authentication/sign in method.",
+        "brief": "Create a demo app module to use Firebase email and password authentication and Firebase Firestore database to store user credentials.  Also have a working option to sign in with Google OAuth 2.0 as an alternative authentication/sign in method.<p>A user should be able to:<ol><li>Create a new account</li> <li>Sign in to their account</li> <li>Reset password via forgot password email to reset</li> <li>Change their email address</li><li>Change their password</li><li>Edit their profile name and picture URL</li><li>View their profile</li><li>Delete their account</li></ol></p>",
+        "learning": "<p>The object of this project was create a module for authentication that could be easily imported into any future apps with minimal effort.</p><p>This gave me a good grounding in using Firebase auth and Firestore tools.</p><p>I learned how to use Firebase email and password authentication, where user credentials are stored in the Firebase Firestore database.</p><p>I also learned about using Google OAuth 2.0 for a sign in with Google option.</p><p>Additional knowledge and skills learned during this project included: <ul><li>Working with protected routes (routes locked to authenticated users only)<li>API key handling to keep those keys secret and safe</li><li>Reading, writing and interfacing to the Firestore database</li><li>CSS styling with the Material UI library</li></ul>"
+    },
+    {
         "id": 1,
         "projectName": "Foodee",
         "projectTitle": "Foodee App",
@@ -28,6 +59,21 @@
         "image": "../static/images/endangered-animals-app.jpg",
         "brief": "Develop an interactive browser application that is educational and fun whilst highlighting some of the worlds endangered animals.",
         "learning": "<p>This was my second project whilst studying Professional Software Development with CodeClan.  It was a group project that went from the seedling of an idea to a full working app in the space of just 6 days.</p><p>After creating the brief, MVP and extensions to work on, we started the task of design and planning.  This included database design to act as our API, front-end design with component diagrams and mock wireframe diagrams.</p><p>In the Node back-end, I got to work on and improve my skills with Express server, MongoDB and restful routes.</p><p>In the front-end, I gained experience using React and JavaScript and fetching API data from our back-end routes.  I also got more experience using CSS styling.  I gained new skills in setting up an interactive map with Leaflet.js.</p><p>Other technical skills and working practices I improved on include using Git for software source control along with an Agile approach to project work, in having daily stand-ups, working from Kanban board for task management, team working with pair-programming along with solo programming.<p>Please feel free to click on the DEMO sign at the top of the page to see the project running live.</p>"
+    },
+    {
+        "id": 8,
+        "projectName": "Portfolio Web Site",
+        "projectTitle": "Portfolio Site Showcase",
+        "projectTeam": "A Solo Project",
+        "subtitle": "Portfolio of software development projects",
+        "category": "Web app",
+        "techDescription": "React | JavaScript | HTML | CSS | Netlify Hosting | GitHub",
+        "link": "/scottjohnston-portfolio",
+        "gitHubLink": "https://github.com/SJ47/scottjohnston-portfolio",
+        "liveAppLink": "https://scottjohnston.dev/",
+        "image": "../static/images/scottjohnston-portfolio.png",
+        "brief": "Create a contemporary portfolio web site show casing software development skills, knowledge and projects.",
+        "learning": "<p>This was a fun project I completed (I say completed, but it is a living project) after my studying of Professional Software Development with CodeClan finished.  The object was simply to design and host a web site portfolio for showcasing my project creations, skills and learning that I have acquired during and after my studying with CodeClan.</p><p>I decided to use React for the front-end for developing my portfolio as I felt this would be best for managing multiple projects as I add more over time with the least amount change to the code going forward.</p><p>I initially hard coded all the project pages and data for each, but it was quickly becoming apparent that for each project I was adding, there was a lot of repeatable code and functionality going on.</p><p>I then decided to refactor the project to use a template style of building the page using React for each project.  This meant that each project would look similar in the design and layout of each project page.</p><p>I was also able to use a JSON data file for storing all the data for each project, which means going forward I just need to add the project information to the JSON file and the project will show up in my portfolio looking like all the other previous projects without changing any code.</p><p>This project and others showcased are hosted on Netlify, Heroku and MongDB Atlas.  This improved my skills and knowledge for hosting web sites on various cloud platforms.</p><p>Please feel free to click on the DEMO sign at the top of the page to see the project running live - however, as you are already here looking at my portfolio, that seems kind of weird and you would be entering into the world of infinite loops 😏.</p>"
     },
     {
         "id": 3,
@@ -103,20 +149,5 @@
         "image": "../static/images/rock-paper-scissors.png",
         "brief": "Create a simple game of Rock, Paper and Scissors to demonstrate learning of Python and Flask.",
         "learning": "<p>This was a weekend homework exercise during my studying of Professional Software Development with CodeClan.  It was to re-enforce my learning of Python after week 3.</p><p>I decided to complete the MVP and all extensions so that a player could play against the computer.</p><p>This helped improve my understanding of applying logic to the game with regards to the rules of the game and how to check for a winner.</p><p>I improved my skills and understanding with Python and scoping of methods in the class with class methods and static methods.<p>Please feel free to click on the DEMO sign at the top of the page to see the project running live.</p>"
-    },
-    {
-        "id": 8,
-        "projectName": "Portfolio Web Site",
-        "projectTitle": "Portfolio Site Showcase",
-        "projectTeam": "A Solo Project",
-        "subtitle": "Portfolio of software development projects",
-        "category": "Web app",
-        "techDescription": "React | JavaScript | HTML | CSS | Netlify Hosting | GitHub",
-        "link": "/scottjohnston-portfolio",
-        "gitHubLink": "https://github.com/SJ47/scottjohnston-portfolio",
-        "liveAppLink": "https://scottjohnston.dev/",
-        "image": "../static/images/scottjohnston-portfolio.png",
-        "brief": "Create a contemporary portfolio web site show casing software development skills, knowledge and projects.",
-        "learning": "<p>This was a fun project I completed (I say completed, but it is a living project) after my studying of Professional Software Development with CodeClan finished.  The object was simply to design and host a web site portfolio for showcasing my project creations, skills and learning that I have acquired during and after my studying with CodeClan.</p><p>I decided to use React for the front-end for developing my portfolio as I felt this would be best for managing multiple projects as I add more over time with the least amount change to the code going forward.</p><p>I initially hard coded all the project pages and data for each, but it was quickly becoming apparent that for each project I was adding, there was a lot of repeatable code and functionality going on.</p><p>I then decided to refactor the project to use a template style of building the page using React for each project.  This meant that each project would look similar in the design and layout of each project page.</p><p>I was also able to use a JSON data file for storing all the data for each project, which means going forward I just need to add the project information to the JSON file and the project will show up in my portfolio looking like all the other previous projects without changing any code.</p><p>This project and others showcased are hosted on Netlify, Heroku and MongDB Atlas.  This improved my skills and knowledge for hosting web sites on various cloud platforms.</p><p>Please feel free to click on the DEMO sign at the top of the page to see the project running live - however, as you are already here looking at my portfolio, that seems kind of weird and you would be entering into the world of infinite loops 😏.</p>"
     }
 ]
