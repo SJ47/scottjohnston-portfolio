@@ -29,7 +29,8 @@ const Thumbnail = ({ project }) => {
                             <div>
                                 <div className="subtext">
                                     <p className="tech-text">Brief</p>
-                                    <p className="card-back-text">{project.brief}</p>
+                                    {project.miniBrief ? <p className="card-back-text">{project.miniBrief}</p> :
+                                        <p className="card-back-text">{project.brief}</p>}
                                     <hr className="subtext-hr" />
                                     <p className="subtext subtext-link"><Link to={project.link} className="project-link" id={project.id}>Project page <i className="fas fa-arrow-right"></i></Link></p>
                                 </div>
