@@ -1,5 +1,20 @@
 [
     {
+        "id": 11,
+        "projectName": "Splitter Tip Calculator",
+        "projectTitle": "Splitter Tip Calculator App",
+        "projectTeam": "A Solo Project",
+        "subtitle": "Calculate your meal and drinks tip quickly",
+        "category": "Web app",
+        "techDescription": "React | Styled Components | JavaScript | HTML | CSS | Netlify Hosting | GitHub",
+        "link": "/splitter-tip-calculator",
+        "gitHubLink": "https://github.com/SJ47/frontend-mentor-bill-splitter-styled-components",
+        "liveAppLink": "https://splitter-tip-calculator.scottjohnston.dev/",
+        "image": "../static/images/splitter-tip-calculator.png",
+        "brief": "Allow a user to calculate the tip and total amount per person for a bill based on number of people and tip percentage selected. ",
+        "learning": "<p>The object of this project was get familiar with using Styled Components with React as well as having a little useful app to use when out socialising to calculate a tip and how much each person should pay in your group.</p><p>This project help me learn how to style a project using Styled Components and enhance my JavaScript and React skills.  I also used this project to improve my CSS skills with regards to the application styling and using a mobile first approach.</p>"
+    },
+    {
         "id": 10,
         "projectName": "Slider Puzzle Game",
         "projectTitle": "Slider Puzzle Game",
