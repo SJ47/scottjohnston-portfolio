@@ -1,5 +1,20 @@
 [
     {
+        "id": 12,
+        "projectName": "Calculator",
+        "projectTitle": "Calculator App",
+        "projectTeam": "A Solo Project",
+        "subtitle": "Calculator with 3 theme switcher",
+        "category": "Web app",
+        "techDescription": "React | Styled Components | JavaScript | HTML | CSS | Netlify Hosting | GitHub",
+        "link": "/calculator",
+        "gitHubLink": "https://github.com/SJ47/calculator-3-theme-switcher-sc",
+        "liveAppLink": "https://calculator.scottjohnston.dev/",
+        "image": "../static/images/calculator.png",
+        "brief": "Allow a user to perform mathmatical operations like addition, subtraction, multiplication, and division.  Adjust the color theme based on their preference. Have their initial theme preference checked using 'prefers-color-scheme' and have any additional changes saved in the browser.",
+        "learning": "<p>The object of this project was get more familiar with using Styled Components with React and to manage a theme switcher using more than two themes.  In addition, the practice to learn grabbing the users preferred colour scheme and saving their app theme preference to the browser.</p><p>This project helped me learn how to style a project using Styled Components and enhance my JavaScript and React skills.  I also used this project to improve my CSS skills with regards to the application styling and using a mobile first approach.</p>"
+    },
+    {
         "id": 11,
         "projectName": "Splitter Tip Calculator",
         "projectTitle": "Splitter Tip Calculator App",
@@ -12,7 +27,7 @@
         "liveAppLink": "https://splitter-tip-calculator.scottjohnston.dev/",
         "image": "../static/images/splitter-tip-calculator.png",
         "brief": "Allow a user to calculate the tip and total amount per person for a bill based on number of people and tip percentage selected. ",
-        "learning": "<p>The object of this project was get familiar with using Styled Components with React as well as having a little useful app to use when out socialising to calculate a tip and how much each person should pay in your group.</p><p>This project help me learn how to style a project using Styled Components and enhance my JavaScript and React skills.  I also used this project to improve my CSS skills with regards to the application styling and using a mobile first approach.</p>"
+        "learning": "<p>The object of this project was get familiar with using Styled Components with React as well as having a little useful app to use when out socialising to calculate a tip and how much each person should pay in your group.</p><p>This project helped me learn how to style a project using Styled Components and enhance my JavaScript and React skills.  I also used this project to improve my CSS skills with regards to the application styling and using a mobile first approach.</p>"
     },
     {
         "id": 10,
